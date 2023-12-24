@@ -5,14 +5,14 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.note-container {
+.container {
     background: linear-gradient(to bottom right, rgb(255, 106, 131), rgb(0, 217, 255));
     width: 100%;
     min-height: 100vh;
     color: white;
 }
 
-.note-container .heading {
+.container .heading {
     font-size: 3.5rem;
     padding: 1rem 1rem;
     display: flex;
@@ -20,7 +20,7 @@
     gap: .5rem;
 }
 
-.note-container #btn {
+.container #btn {
     padding: 1rem 1.5rem;
     border: 3px solid rgb(26, 26, 39);
     outline: none;
@@ -38,16 +38,16 @@
     cursor: pointer;
 }
 
-.note-container #btn img {
+.container #btn img {
     display: inline;
 }
 
-.note-container #btn:hover {
+.container #btn:hover {
     background: transparent;
     border: 3px solid rgb(26, 26, 39);
 }
 
-.input-section {
+.note-container {
     display: flex;
     /* justify-content: center; */
     align-items: center;
